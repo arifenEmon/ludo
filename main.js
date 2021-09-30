@@ -64,7 +64,7 @@ play.addEventListener('click', function(){
 })
 reload.addEventListener('click', function(){
     reload.classList.add('reload-class')
-    point.innerText = 0
+    window.location.reload()
     setTimeout(()=> {
         reload.classList.remove('reload-class')
     },1000)
