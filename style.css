@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    text-transform: capitalize;
+    font-size: 45px;
+}
+.play-body{
+    background: #000;
+    height: 200px;
+    width: 400px;
+    margin: 70px auto 0px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.67);
+    -moz-box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.67);
+    position: relative;
+}
+button#play {
+    display: block;
+    margin: 10px auto;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+.play-body img {
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+    position: relative;
+}
+.anni{
+    transition: 1s;
+    transform: rotate(360deg);
+}
+#diceNum {
+    position: relative;
+    left: 23%;
+    top: 95px;
+    font-size: 15px;
+    text-align: center;
+    width: 68px;
+}
+.play-body input {
+    position: relative;
+    top: -7px;
+    left: 13px;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+}
+.play-body p {
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 103px;
+}
+.play-body h2 {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    color: #fff;
+    font-size: 43px;
+    margin: 5px -5px;
+}
+.btn-grp {
+    display: table-caption;
+    position: relative;
+    top: -85px;
+    left: 18px;
+}
+
+.btn-grp button {
+    padding: 4px 10px;
+    margin: 1px 0;
+}
+.select-btn{
+    background: tomato;
+    color: #fff;
+    border: 2px solid #000;
+}
+button{
+    cursor: pointer;
+}
+.reload {
+    display: block;
+    text-align: center;
+    margin: 19px 0;
+}
+
+.reload i {
+    font-size: 30px;
+    cursor: pointer;
+    
+}
+.reload-class{
+    transform: rotate(360deg);
+    transition: 1s;
+}
